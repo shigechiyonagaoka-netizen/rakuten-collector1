@@ -31,7 +31,7 @@ import requests
 # ------------------------------------------------------------------
 # 2026年5月以降の新エンドポイント。ランキングAPIのURLは検索APIと同じ並びで
 # 組み立てているので、403/404になる場合は公式ドキュメントで確認すること。
-RANKING_URL = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Ranking/20220601"
+RANKING_URL = "https://openapi.rakuten.co.jp/ichibaranking/api/IchibaItem/Ranking/20220601"
 SEARCH_URL = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601"
 
 TOTAL = 100            # 1日に出す商品数
